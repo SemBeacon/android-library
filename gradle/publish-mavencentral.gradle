@@ -63,7 +63,7 @@ publishing {
             pom {
                 name = PUBLISH_ARTIFACT_ID
                 description = 'SemBeacon Android Library'
-                url = 'https://altbeacon.github.io/android-beacon-library'
+                url = 'https://sembeacon.org'
                 licenses {
                     license {
                         name = 'Apache 2'
@@ -77,9 +77,9 @@ publishing {
                     }
                 }
                 scm {
-                    connection = 'scm:git:github.com/SemBeacon/sembeacon-android-library.git'
-                    developerConnection = 'scm:git:ssh://github.com/SemBeacon/sembeacon-android-library.git'
-                    url = 'https://github.com/SemBeacon/sembeacon-android-library'
+                    connection = 'scm:git:github.com/SemBeacon/android-library.git'
+                    developerConnection = 'scm:git:ssh://github.com/SemBeacon/android-library.git'
+                    url = 'https://github.com/SemBeacon/android-library'
                 }
                 withXml {
                     def dependenciesNode = asNode().appendNode('dependencies')

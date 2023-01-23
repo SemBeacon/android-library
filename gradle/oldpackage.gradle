@@ -101,8 +101,8 @@ publishing {
                 def dev = root.appendNode('developers').appendNode('developer')
                 dev.appendNode('id', project.project_vendor)
                 dev.appendNode('name', project.project_vendor_name)
-                dev.appendNode('organization', 'AltBeacon')
-                dev.appendNode('organizationUrl', 'altbeacon.org')
+                dev.appendNode('organization', 'SemBeacon')
+                dev.appendNode('organizationUrl', 'sembeacon.org')
             }
         }
     }

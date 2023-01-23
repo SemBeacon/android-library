@@ -50,6 +50,7 @@ android {
 }
 
 dependencies {
+    // Main dependency
     implementation 'org.altbeacon:android-beacon-library:2.19.6-beta2'
 
     implementation 'androidx.appcompat:appcompat:1.2.0'
@@ -74,9 +75,9 @@ dependencies {
 }
 
 ext {
-    PUBLISH_GROUP_ID = 'org.altbeacon'
+    PUBLISH_GROUP_ID = 'org.sembeacon'
     PUBLISH_VERSION = version
-    PUBLISH_ARTIFACT_ID = 'android-beacon-library'
+    PUBLISH_ARTIFACT_ID = 'sembeacon-android-library'
 }
 apply plugin: 'kotlin-android'
 repositories {
