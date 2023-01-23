@@ -1,0 +1,3 @@
+include ':lib'
+project(":").name = "sembeacon-android-library"
+project(":lib").name = "sembeacon-android-library"
