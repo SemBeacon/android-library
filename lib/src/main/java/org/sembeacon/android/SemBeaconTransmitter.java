@@ -8,6 +8,9 @@ import android.content.Context;
 import org.altbeacon.beacon.BeaconTransmitter;
 import org.altbeacon.beacon.logging.LogManager;
 
+/**
+ * TODO: Work in progress 
+ **/
 public class SemBeaconTransmitter extends BeaconTransmitter {
     private BluetoothLeAdvertiser mBluetoothLeAdvertiser;
     private BluetoothAdapter mBluetoothAdapter;
